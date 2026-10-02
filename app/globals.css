@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply bg-paper font-sans text-ink antialiased; }
+:focus-visible { outline: 2px solid #3D6B73; outline-offset: 3px; border-radius: 2px; }
+::selection { background: #3D6B73; color: #F7F6F3; }
+
+/* One orchestrated moment: the hero workflow draws itself once */
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.draw { stroke-dasharray: 400; stroke-dashoffset: 400; animation: draw 1.6s ease-out 0.3s forwards; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .draw { animation: none; stroke-dashoffset: 0; }
+}
