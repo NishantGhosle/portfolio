@@ -42,7 +42,7 @@ const jobs = [
   {
     org: "InfusAi Solutions",
     role: "Software Engineer · AI & Backend",
-    when: "Sep 2023 – Dec 2023",
+    when: "Sep 2022 – Dec 2023",
     where: "Bhopal, India",
     points: [
       "Built REST microservices using Node.js and FastAPI along with Python automation workflows.",
