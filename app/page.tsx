@@ -4,7 +4,7 @@ const LINKEDIN = "https://www.linkedin.com/in/nishant-ghosle-b28a14247";
 const nav = ["About", "Experience", "Projects", "Skills", "Contact"];
 
 const stats = [
-  { v: "3 yrs", l: "software engineering experience" },
+  { v: "4+ yrs", l: "software engineering experience" },
   { v: "10K+", l: "concurrent users served" },
   { v: "89%", l: "context precision in RAG" },
   { v: "−45%", l: "agent workflow failures" },
@@ -419,8 +419,8 @@ export default function Home() {
 
             <div>
               <p className="max-w-2xl text-lg leading-relaxed text-mute">
-                I&rsquo;m an AI Engineer with 3+ years of software
-                engineering experience, including 3+ years focused on
+                I&rsquo;m an AI Engineer with 4+ years of software
+                engineering experience, including 4+ years focused on
                 Generative AI, RAG and Agentic AI systems. I build
                 production-ready AI applications using Python, FastAPI,
                 LangChain, LangGraph, vector databases, Redis and AWS,
