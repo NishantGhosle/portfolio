@@ -419,7 +419,7 @@ export default function Home() {
 
             <div>
               <p className="max-w-2xl text-lg leading-relaxed text-mute">
-                I&rsquo;m an AI Engineer with 4+ years of software
+                I&rsquo;m an AI Engineer with 3+ years of software
                 engineering experience, including 3+ years focused on
                 Generative AI, RAG and Agentic AI systems. I build
                 production-ready AI applications using Python, FastAPI,
